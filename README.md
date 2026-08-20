@@ -2,7 +2,7 @@
 
 Predicting median home value (`MEDV`) from property and neighborhood features, using the classic Boston Housing dataset — from raw data to a live public app.
 
-**Live app:** https://bostonhouseprediction-xcvrykfektvw8acxuarrhq.streamlit.app/
+**Live app:** https://bostonhousingpricepredictor-ppnmoe7bpabxn3h3uu7keu.streamlit.app
 
 ## What's in this repo
 
@@ -54,7 +54,7 @@ A business-facing view of the same analysis — KPI cards (average price, homes 
 
 A live, public tool where anyone can adjust sliders for a property's features (rooms, crime rate, tax rate, distance to job centers, etc.) and get an instant predicted price, along with a breakdown of which inputs drove that specific prediction.
 
-Try it: **https://bostonhouseprediction-xcvrykfektvw8acxuarrhq.streamlit.app/**
+Try it: **[https://bostonhouseprediction-xcvrykfektvw8acxuarrhq.streamlit.app/](https://bostonhousingpricepredictor-ppnmoe7bpabxn3h3uu7keu.streamlit.app)**
 
 The app trains its Gradient Boosting model fresh on startup (cached after first load with `@st.cache_resource`) rather than loading a pickled model file — this avoids scikit-learn version mismatches between the local environment and the deployment server.
 
